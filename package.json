@@ -1,0 +1,50 @@
+{
+  "name": "sql-wrapper-csv",
+  "version": "0.1.7",
+  "description": "A minimal SQL based DB based on CSV files. For educational purposes only.",
+  "main": "./src/index.js",
+  "directories": {
+    "doc": "docs",
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "jest",
+    "test:1": "jest --testPathPattern=./tests/test-01",
+    "test:2": "jest --testPathPattern=./tests/test-02",
+    "test:3": "jest --testPathPattern=./tests/test-03",
+    "test:4": "jest --testPathPattern=./tests/test-04",
+    "test:5": "jest --testPathPattern=./tests/test-05",
+    "test:6": "jest --testPathPattern=./tests/test-06",
+    "test:7": "jest --testPathPattern=./tests/test-07",
+    "test:8": "jest --testPathPattern=./tests/test-08",
+    "test:9": "jest --testPathPattern=./tests/test-09",
+    "test:10": "jest --testPathPattern=./tests/test-10",
+    "test:11": "jest --testPathPattern=./tests/test-11",
+    "test:12": "jest --testPathPattern=./tests/test-12",
+    "test:13": "jest --testPathPattern=./tests/test-13",
+    "test:14": "jest --testPathPattern=./tests/test-14",
+    "test:15": "jest --testPathPattern=./tests/test-15",
+    "test:16": "jest --testPathPattern=./tests/test-16",
+    "test:17": "jest --testPathPattern=./tests/test-17",
+    "test:18": "jest --testPathPattern=./tests/test-18",
+    "test:19": "jest --testPathPattern=./tests/test-19",
+    "test:20": "jest --testPathPattern=./tests/test-20",
+    "test-verbose": "jest --verbose",
+    "server": "node ./src/server.js"
+  },
+  "bin": {
+    "stylusdb-cli": "node ./src/cli.js",
+    "sql-cli": "node ./src/cli.js"
+  },
+  "keywords": [],
+  "author": "Chakshu Gautam",
+  "license": "ISC",
+  "devDependencies": {
+    "csv-parser": "^3.0.0",
+    "jest": "^29.7.0"
+  },
+  "dependencies": {
+    "json2csv": "^6.0.0-alpha.2",
+    "xterm": "^5.3.0"
+  }
+}
